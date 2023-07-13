@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto; /* Cambiamos la altura a 'auto' */
+    height: auto; 
   }
   
   .container {
@@ -12,7 +12,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px; /* Agregamos un margen superior */
+    margin-top: 50px; 
+  }
+
+  .title {
+    font-size: 25px;
   }
   
   .profile-box {

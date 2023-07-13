@@ -50,8 +50,4 @@ async function fetchProfiles(page = 1) {
   }
 }
 
-const allUsersButton = document.getElementById("all-users-button");
-allUsersButton.addEventListener("click", () => {
-  profileContainer.innerHTML = "";
-  fetchProfiles();
-});
+document.addEventListener("DOMContentLoaded", fetchProfiles);
