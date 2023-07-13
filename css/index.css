@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Cambiamos la altura a 'auto' */
+  }
+  
+  .container {
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Agregamos un margen superior */
+  }
+  
+  .profile-box {
+    width: 300px;
+    height: 400px;
+    background-color: #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-field {
+    margin-bottom: 10px;
+    text-align: center;
+  }
